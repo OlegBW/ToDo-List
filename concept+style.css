@@ -1,0 +1,180 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Commissioner:wght@100;200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+body {
+  background-color: rgb(240, 224, 196);
+  font-family: "Commissioner", sans-serif;
+}
+
+.addbutton {
+  display: inline-block;
+  position: fixed;
+  z-index: 5;
+  width: 100px;
+  height: 100px;
+}
+.addbutton img {
+  height: 100px;
+  width: 100px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input__field {
+  width: 400px;
+  height: 200px;
+  background-color: rgb(238, 238, 238);
+  border-radius: 4px;
+  padding: 15px;
+  word-wrap: break-word;
+  white-space: normal;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+textarea {
+  resize: none;
+}
+
+.note__field {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  background-color: rgb(223, 179, 99);
+  transition-duration: 1s;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px;
+  justify-content: space-between;
+  line-height: 28px;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.note__field_checked {
+  display: flex;
+  width: 400px;
+  height: 100px;
+  background-color: rgb(124, 177, 113);
+  transition-duration: 1s;
+  padding: 5px;
+  margin: 10px;
+  border-radius: 4px;
+  line-height: 28px;
+  justify-content: space-between;
+  box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+}
+
+.note__info {
+  word-wrap: break-word;
+  white-space: normal;
+  max-width: 300px;
+  overflow: scroll;
+  text-align: center;
+  padding: 10px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.control__field {
+  display: flex;
+  align-items: center;
+}
+
+.button__remove {
+  height: 30px;
+  width: 30px;
+  margin: 0px 0px 0px 15px;
+  background-color: red;
+  border: 2px solid rgb(250, 91, 91);
+  border-radius: 50%;
+}
+
+.note__check {
+  height: 30px;
+  width: 30px;
+  margin: 0px 0px 0px 15px;
+}
+
+.note__space{
+  display: flex;
+  align-items: center;
+}
